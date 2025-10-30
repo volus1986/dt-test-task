@@ -9,6 +9,9 @@ const meta = {
     title: 'Example/Input',
     component: Input,
     tags: ['autodocs'],
+    parameters: {
+        layout: "centered",
+    },
     // More on argTypes: https://storybook.js.org/docs/api/argtypes
     argTypes: {
         type: {
