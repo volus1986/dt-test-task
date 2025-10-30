@@ -1,6 +1,7 @@
 import {Submenu, submenuItem} from "@/app/components/Sidebar/components/Submenu";
+import {arrowIcon} from "@/app/components/Sidebar/components/icons/arrow";
 
-export type submenuItems = submenuItem[]
+export type submenuItems = submenuItem
 
 type MainMenuItemProps = {
     title: string,
@@ -19,7 +20,7 @@ export function MainMenuItem({title, isOpen = true, menuSubItems = [], changeOpe
     const icon = () => {
         if (!menuSubItems?.length) return null;
 
-        return isOpen ? '-' : '+'
+        return <span className={`transition-all duration-300 ${isOpen ? 'rotate-180' : ''}`}>{arrowIcon}</span>
     }
 
     const titleEl = <button
