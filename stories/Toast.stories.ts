@@ -14,7 +14,7 @@ const meta = {
     argTypes: {
         message: { control: "text" },
         duration: { control: "number" },
-        closeButton: { control: "switch" },
+        closeButton: { control: "boolean" },
     }
 } satisfies Meta<typeof Toast>;
 
@@ -23,18 +23,10 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
-export const DefaultToast: Story = {
+export const CustomToast: Story = {
     args: {
         message: "text",
-        duration: 3000,
+        duration: 10000,
         closeButton: false
-    },
-};
-
-export const ClosableToast: Story = {
-    args: {
-        message: "text",
-        duration: 3000,
-        closeButton: true
     },
 };
