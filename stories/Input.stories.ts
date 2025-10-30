@@ -33,16 +33,10 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
-export const TypeText: Story = {
+export const CustomInput: Story = {
     args: {
         type: "text",
         clearable: true,
     },
 };
 
-export const TypePassword: Story = {
-    args: {
-        type: "password",
-        clearable: true,
-    },
-};

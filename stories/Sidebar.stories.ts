@@ -44,8 +44,8 @@ const sidebarTestItems = [
         ]
     },
     {
-        title: 'First Field',
-        callback: () => console.log('First Field callback')
+        title: 'Third Field',
+        callback: () => console.log('Third Field callback')
     },
 ]
 
