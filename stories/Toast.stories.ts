@@ -14,6 +14,7 @@ const meta = {
     argTypes: {
         message: { control: "text" },
         duration: { control: "number" },
+        closeButton: { control: "switch" },
     }
 } satisfies Meta<typeof Toast>;
 
@@ -26,5 +27,14 @@ export const DefaultToast: Story = {
     args: {
         message: "text",
         duration: 3000,
+        closeButton: false
+    },
+};
+
+export const ClosableToast: Story = {
+    args: {
+        message: "text",
+        duration: 3000,
+        closeButton: true
     },
 };
