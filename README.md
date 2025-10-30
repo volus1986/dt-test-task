@@ -1,3 +1,10 @@
+Setup:
+1. npm install
+2. npm run storybook
+
+
+Screenshots from Storybook:
+
 Input:
 
 <img width="1316" height="482" alt="image" src="https://github.com/user-attachments/assets/5b71bf4a-e119-4833-8d46-410446f6b6bd" />
