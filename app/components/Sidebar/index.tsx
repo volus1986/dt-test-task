@@ -7,7 +7,6 @@ type SidebarProps = {
 };
 
 export default function Sidebar({isOpen=true, menuItems=[], onClose}: SidebarProps) {
-
     return <>
         <div
             className={`top-0 w-full h-full bg-gray-900 opacity-50 absolute ${isOpen ? '' : 'hidden'}`}

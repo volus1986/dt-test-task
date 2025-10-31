@@ -8,7 +8,7 @@ import {visibleIcon} from "./icons/visible";
 type InputProps = {
     type: string;
     clearable: boolean;
-    onChange: (value: string)=>React.ChangeEvent<HTMLInputElement>
+    onChange: (value: string) => React.ChangeEvent<HTMLInputElement>
 };
 
 export default function Input({type="password", clearable=true, onChange}: InputProps) {

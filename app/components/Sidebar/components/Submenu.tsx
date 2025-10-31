@@ -17,7 +17,9 @@ export function Submenu({isOpen = true, menuSubItems = []}: MainMenuItemProps) {
             key={index}
             className='w-full h-12 border'
             onClick={menuItem.callback}
-        >{menuItem.title}</button>
+        >
+            {menuItem.title}
+        </button>
     })
 
 
