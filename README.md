@@ -22,5 +22,7 @@ Toast:
 
 Sidebar:
 
-<img width="619" height="770" alt="image" src="https://github.com/user-attachments/assets/f6acc8fd-4d89-4992-9ad1-36ff35410028" />
-<img width="619" height="770" alt="image" src="https://github.com/user-attachments/assets/506e723b-7f07-4b76-9b56-0c9487d548f3" />
+<img width="619" height="770" alt="image" src="https://github.com/user-attachments/assets/00da784c-2594-4366-adf0-d886b7b75699" />
+<img width="619" height="770" alt="image" src="https://github.com/user-attachments/assets/718a958a-3abb-4312-9c25-f9ed4d3a8f35" />
+
+
