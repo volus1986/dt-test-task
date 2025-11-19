@@ -42,7 +42,7 @@ export function MainMenu({isOpen = true, menuItems = []}: MenuProps) {
     })
 
     return <div className={`
-        top-0 fixed min-w-64 h-full bg-gray-600 opacity-100 right-0
+        top-0 fixed min-w-64 h-full bg-[#1E1E1E] border right-0
         transition-all duration-300 ${isOpen ? "" : "translate-x-1/1"}  
     `}>
         {items}

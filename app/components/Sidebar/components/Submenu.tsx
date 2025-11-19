@@ -15,7 +15,7 @@ export function Submenu({isOpen = true, menuSubItems = []}: MainMenuItemProps) {
     const menuItemsEls = menuSubItems?.map((menuItem: submenuItem, index: number) => {
         return <button
             key={index}
-            className='w-full h-12 border'
+            className='w-full h-12 border-b-1 border-b-gray-700 text-[#F0F0F0]'
             onClick={menuItem.callback}
         >
             {menuItem.title}
@@ -23,7 +23,7 @@ export function Submenu({isOpen = true, menuSubItems = []}: MainMenuItemProps) {
     })
 
 
-    return <div className={`w-auto bg-amber-500 grid`}>
+    return <div className={`w-auto bg-[#2A2A2A] grid`}>
         {menuItemsEls}
     </div>
 }

@@ -24,11 +24,11 @@ export function MainMenuItem({title, isOpen = true, menuSubItems = [], changeOpe
     }
 
     const titleEl = <button
-        className='w-full h-12 flex justify-between px-4 py-1 bg-amber-300'
+        className={`w-full h-12 flex justify-between px-4 py-1 ${isOpen ? 'bg-[#555555]' : 'bg-[#333333]'}`}
         onClick={handleSwitchOpen}
     >
-        <div className="grow flex items-center">{title}</div>
-        <div className="flex items-center">{icon()}</div>
+        <div className="grow flex items-center text-[#E5E5E5]">{title}</div>
+        <div className="flex items-center text-[#E5E5E5]">{icon()}</div>
     </button>
 
     const submenuEl = !menuSubItems?.length
